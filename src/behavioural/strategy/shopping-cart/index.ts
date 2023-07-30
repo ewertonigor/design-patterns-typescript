@@ -1,6 +1,6 @@
-import { ECommerceShoppingCart } from './shopping-cart/e-commerce-shopping-cart';
-import { DefaultDiscount } from './shopping-cart/default-discount';
-import { NewDiscount } from './shopping-cart/new-discount';
+import { ECommerceShoppingCart } from './e-commerc-shopping-cart';
+import { DefaultDiscount } from './default-discount';
+import { NewDiscount } from './new-discount';
 
 const shoppingCart = new ECommerceShoppingCart();
 shoppingCart.discount = new DefaultDiscount();
